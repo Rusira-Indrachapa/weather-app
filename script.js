@@ -226,7 +226,7 @@ function getIcon(condition){
       return "images/sun.png"
     }
       else if (condition === "clear-night") {
-      return "images/moon.png"
+      return "images/half-moon.png"
     }
     else {
       return "images/sun.png"
