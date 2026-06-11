@@ -22,6 +22,7 @@ body {
         url("images/clear-day1.jpg");
     background-size: cover;
     background-position: center;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 img {
@@ -45,7 +46,7 @@ img {
     min-width: 280px;
 
     padding: 25px;
-    background-color: rgba(221, 221, 221, 0.85);
+    background-color: rgba(214, 214, 214, 0.85);
 
     height: 100%; /* 🔥 important for full alignment */
 }
@@ -217,7 +218,7 @@ img {
     padding: 20px 40px;
 
     padding-bottom: 90px;
-    background-color: #f6f6f6;
+    background-color: #e4e4e4;
     position: relative;
 }
 
@@ -464,4 +465,35 @@ nav .units button {
 
 .hidden {
     display: none;
+}
+
+
+
+.dark-mode .main{
+    background: #1e1e1e;
+    color: white;
+}
+
+.dark-mode .sidebar{
+    background: rgba(45, 45, 45, 0.9);
+    color: white;
+}
+
+.dark-mode .card,
+.dark-mode .card2{
+    background: #666666;
+    color: white;
+}
+
+.dark-mode input{
+    background: #444;
+    color: white;
+    border: 1px solid #666;
+}
+
+#themeBtn{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
 }
